@@ -1,4 +1,5 @@
 
+*{box-sizing: border-box;}
 
 .contenedor{
     background-color:rgba(162, 113, 207, 0.691);
@@ -7,6 +8,7 @@
     flex-direction: row;
     flex-wrap: nowrap;     /* nowrap, wrap*/
     justify-content: space-evenly;
+    justify-content: space-between;
     align-items:center; 
     padding: 15px;   
 
@@ -14,9 +16,11 @@
 
 .item{
     background-color: rgba(122, 230, 194, 0.787);
-    width: 150px;
+    width: 240px;
     padding: 15px;
     margin: 15px;
+
+
 }
 
 .Shrek{
